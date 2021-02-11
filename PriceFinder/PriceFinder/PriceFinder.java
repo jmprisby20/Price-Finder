@@ -15,7 +15,7 @@ public class PriceFinder {
     public PriceFinder(int i){
         // Check the total quantity of books ordered
         if ( i < 100){
-            // Here there are less than 100 books were ordered, price per book = $0.30
+            // Here there are less than 100 books that were ordered, price per book = $0.30
             price = 0.3;
         }else if (i > 99 && i < 500){
             // Here there are between 100 and 499 books that were ordered, price per book = $0.28
